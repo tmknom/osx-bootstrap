@@ -157,6 +157,26 @@ Host github.com
   User git
 EOL
 
+# cask
+brew cask install google-japanese-ime
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install skitch
+brew cask install dropbox
+brew cask install atom
+brew cask install docker
+brew cask install intellij-idea
+brew cask install kindle
+brew cask install alfred
+brew cask install spectacle
+brew cask install mi
+brew cask install flux
+brew cask install dash
+brew cask install clipy
+brew cask install appcleaner
+brew cask install cheatsheet
+brew cask install freemind
+
 # cleanup
 brew upgrade --cleanup
 
