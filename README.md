@@ -6,11 +6,16 @@ Bootstrap macOS for software development.
 
 - macOS High Sierra
 
+## Install
+
+```bash
+curl -O https://raw.githubusercontent.com/tmknom/osx-bootstrap/master/bootstrap.sh && chmod +x bootstrap.sh
+```
+
 ## Usage
 
 ```bash
-curl -O https://raw.githubusercontent.com/tmknom/osx-bootstrap/master/bootstrap.sh
-chmod +x bootstrap.sh && ./bootstrap.sh
+time ./bootstrap.sh 2>&1 | tee bootstrap.log
 ```
 
 ## Licence
