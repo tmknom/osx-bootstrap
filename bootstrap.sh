@@ -159,3 +159,15 @@ EOL
 
 # cleanup
 brew upgrade --cleanup
+
+# check install version
+source ~/.bashrc
+python --version
+ruby --version
+go version
+node --version
+java -version
+scala -version
+terraform --version
+aws --version
+fab --version
