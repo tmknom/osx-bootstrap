@@ -1,8 +1,18 @@
 #!/bin/bash
+#
+# @(#)Bootstrap macOS for software development.
+# @(#)Usage: GITHUB_USER=[your_name] GITHUB_MAIL=[your_address] ./bootstrap.sh
 
-# configure github
-GITHUB_USER=""
-GITHUB_MAIL=""
+# check variable
+if [ -z "$GITHUB_USER" ]; then
+  echo "GITHUB_USER is empty!" >&2
+  exit 1
+fi
+
+if [ -z "$GITHUB_MAIL" ]; then
+  echo "GITHUB_MAIL is empty!" >&2
+  exit 1
+fi
 
 # define version
 PYTHON2_VERSION=2.7.14

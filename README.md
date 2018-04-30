@@ -15,7 +15,7 @@ curl -O https://raw.githubusercontent.com/tmknom/osx-bootstrap/master/bootstrap.
 ## Usage
 
 ```bash
-time ./bootstrap.sh 2>&1 | tee bootstrap.log
+time GITHUB_USER=[your_name] GITHUB_MAIL=[your_address] ./bootstrap.sh 2>&1 | tee bootstrap.log
 ```
 
 ## Licence
