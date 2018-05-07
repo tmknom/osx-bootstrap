@@ -62,7 +62,7 @@ git config --global init.templatedir '~/.git-templates/git-secrets'
 
 # direnv
 brew install direnv
-echo 'export editor=vim' >> ~/.bashrc
+echo 'export EDITOR=vim' >> ~/.bashrc
 echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
 
 # anyenv
